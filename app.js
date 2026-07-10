@@ -127,3 +127,83 @@
 // document.write(devices.pop() + "<br>");
 // document.write(devices.pop() + "<br>");
 // document.write(devices.pop() + "<br>");
+
+ question1
+ // Question 1
+
+// var arr = [];
+
+// console.log(arr);
+
+// // Question 2
+
+// var matrix = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1]
+// ];
+
+// for (var i = 0; i < matrix.length; i++) {
+//     console.log(matrix[i].join(" "));
+// }
+
+// // Question 3
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log(i);
+// }
+
+// // Question 4
+
+// var table = +prompt("Enter table number:");
+// var length = +prompt("Enter table length:");
+
+// for (var i = 1; i <= length; i++) {
+//     document.write(table + " x " + i + " = " + (table * i) + "<br>");
+// }
+// // Question 5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write(fruits[i] + "<br>");
+// }
+
+// document.write("<br>");
+
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write("Element at index " + i + " is " + fruits[i] + "<br>");
+// }
+
+// // Question 6
+
+// document.write("<b>Counting:</b><br>");
+
+// for (var i = 1; i <= 15; i++) {
+//     document.write(i + ", ");
+// }
+
+// document.write("<br><br><b>Reverse Counting:</b><br>");
+
+// for (var i = 10; i >= 1; i--) {
+//     document.write(i + ", ");
+// }
+
+// document.write("<br><br><b>Even:</b><br>");
+
+// for (var i = 0; i <= 20; i += 2) {
+//     document.write(i + ", ");
+// }
+
+// document.write("<br><br><b>Odd:</b><br>");
+
+// for (var i = 1; i <= 19; i += 2) {
+//     document.write(i + ", ");
+// }
+
+// document.write("<br><br><b>Series:</b><br>");
+
+// for (var i = 2; i <= 20; i += 2) {
+//     document.write(i + "k, ");
+// }
+
