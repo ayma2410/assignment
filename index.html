@@ -3,43 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" 
-    href="stylr.css">
+    <title>Salt'n Pepper</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <!-- Navbar -->
     <header>
-        <h1>studyhub dashbord</h1> 
-        <section class="hero">
-        <p>add search and manage student records.</p>
-        <button onclick="showmessage()">get started</button>
+        <div class="logo">
+            <h2>Salt'n Pepper</h2>
+            <p>RESTAURANT</p>
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Publications</a>
+            <a href="#">Feedback</a>
+            <a href="#" class="order-btn">Order Online</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Salt'n Pepper</h1>
+            <h2>Restaurants</h2>
+            <p>
+                Discover delicious food, great taste and an amazing
+                dining experience.
+            </p>
+
+            <button>Explore Our Menu</button>
+        </div>
+
+        <div class="hero-image">
+            <div class="food-box">🍔</div>
+        </div>
     </section>
-        </header>
-        <section class="form-section"> 
-            <h2>add student</h2>
-            <input type="text" id="name"
-            placeholder="Enter Student Name"> 
-            <input type="number" id="age"
-            placeholder="Enter Age">
-            <input type="text" id="course" 
-            placeholder="Enter course">
-
-            <button onclick="addStudent()">addstudent</button>
-            <button onclick="clearForm()">clear</button>
-
-        </section>
-        <section class="student-list">
-
-    <h2>Student Records</h2>
-    <input type="text" id="search" placeholder="Search Student">
-    <button onclick="searchStudent()">Search</button>
-    <h3 id="totalStudents">Total Students: 0</h3>
-    <div id="studentContainer"></div>
-
-</section>
 
 
-            
+    <!-- Brands Section -->
+    <section class="brands">
+        <h1>Welcome to Salt'n Pepper</h1>
+        <h2>Restaurants! Our Brands</h2>
+
+        <p class="description">
+            Please click our brands below for further information,
+            reservations or to order online!
+        </p>
+
+        <div class="brand-container">
+
+            <div class="brand-card">
+                <div class="brand-icon">🍔</div>
+                <h3>Salt'n Pepper</h3>
+                <p>Restaurant</p>
+                <button>Order Now</button>
+            </div>
+
+            <div class="brand-card">
+                <div class="brand-icon">🍗</div>
+                <h3>Salt'n Pepper</h3>
+                <p>Express</p>
+                <button>Order Now</button>
+            </div>
+
+            <div class="brand-card">
+                <div class="brand-icon">🍽️</div>
+                <h3>Salt'n Pepper</h3>
+                <p>Village</p>
+                <button>Reserve a Table</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Franchises -->
+    <section class="franchise">
+
+        <h1>Salt'n Pepper</h1>
+        <h2>Restaurant Franchises</h2>
+
+        <p>
+            Each of our franchises are individually managed.
+            For further details, kindly contact them directly.
+        </p>
+
+        <div class="franchise-container">
+
+            <div class="franchise-card">
+                <h3>Islamabad</h3>
+                <h2>Salt'n Pepper Restaurant</h2>
+                <p>Plot #55, Shabbir Plaza, Blue Area, Islamabad</p>
+                <p>Ph: 051-2604904-6</p>
+                <button>Get Directions</button>
+            </div>
+
+            <div class="franchise-card">
+                <h3>Faisalabad</h3>
+                <h2>Salt'n Pepper Restaurant</h2>
+                <p>4-Kohinoor City, Faisalabad</p>
+                <p>Ph: 041-8711404</p>
+                <button>Get Directions</button>
+            </div>
+
+            <div class="franchise-card">
+                <h3>Bahawalpur</h3>
+                <h2>Salt'n Pepper Restaurant</h2>
+                <p>D.C Chowk, Bahawalpur</p>
+                <p>Ph: 062-2740271-2</p>
+                <button>Get Directions</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Express Section -->
+    <section class="express">
+
+        <h1>Salt'n Pepper</h1>
+        <h2>Express Franchises</h2>
+
+        <div class="express-container">
+
+            <div class="express-card">
+                <div class="express-image">🍕</div>
+                <h3>Salt'n Pepper Express</h3>
+                <p>Emporium Mall</p>
+                <p>Lahore, Pakistan</p>
+                <button>Get Directions</button>
+            </div>
+
+            <div class="express-card">
+                <div class="express-image">🍗</div>
+                <h3>Salt'n Pepper Express</h3>
+                <p>Gujranwala</p>
+                <p>Pakistan</p>
+                <button>Get Directions</button>
+            </div>
+
+            <div class="express-card">
+                <div class="express-image">🍔</div>
+                <h3>Salt'n Pepper Express</h3>
+                <p>Sargodha</p>
+                <p>Pakistan</p>
+                <button>Get Directions</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-box">
+            <h2>Salt'n Pepper</h2>
+            <p>
+                The Salt'n Pepper Restaurants are an example of
+                gracious dining, outstanding service and delicious food.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p>23-Usman Block, New Garden Town, Lahore</p>
+            <p>+92 42 358 509 31</p>
+            <p>+92 42 111 100 678</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Feedback</a>
+        </div>
+
+    </footer>
+
+    <div class="copyright">
+        <p>© 2026 Salt'n Pepper. All Rights Reserved.</p>
+    </div>
+
 </body>
-<script src="index.js"></script>
 </html>
